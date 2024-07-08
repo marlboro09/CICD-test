@@ -27,6 +27,6 @@ jobs:
               ports: 8080
             context:
               git:
-                url: git@github.com:${{ github.repository }}.git
+                url: git@github.com:marlboro09/CICD-test.git
                 ref: ${{ github.ref }}
               preset: java-springboot
